@@ -48,3 +48,7 @@ h1 {
 #addTaskButton:hover {
   background-color: #003c8f;
 }
+
+button{
+  background-color: red;
+}

@@ -33,7 +33,10 @@ document.getElementById("addTaskButton"),addEventListener("click", () => {
 })
 
 //5. Função de deletar tarefa
-function deletar(id)
-    console.log(id)
+
+function deletar(id) {
+    tarefas.splice(id, 1);
+    exibirLista();
+}
 
 
